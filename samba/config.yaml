@@ -9,7 +9,7 @@ arch:
   - amd64
 hassio_api: true
 host_network: true
-image: homeassistant/{arch}-addon-samba
+image: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/homeassistant/{arch}-addon-samba
 init: false
 map:
   - addons:rw
