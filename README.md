@@ -1,92 +1,85 @@
-# Home Assistant Apps: The official repository
+# Home Assistant 应用：官方仓库
 
-Apps (formerly known as add-ons) for Home Assistant allow you to extend the functionality
-around your Home Assistant setup. These apps can consist of an application
-that Home Assistant can integrate with (e.g., a [MQTT broker](/mosquitto/README.md) or [database server](/mariadb/README.md))
-or allow access to your Home Assistant configuration (e.g., via [Samba](/samba/README.md) or using
-the [File Editor](/configurator/README.md)).
+应用（formerly known as add-ons）允许您扩展 Home Assistant 设置的功能。这些应用可以包含 Home Assistant 可以集成的应用程序（例如 [MQTT broker](/mosquitto/README.md) 或 [数据库服务器](/mariadb/README.md)），或者允许访问您的 Home Assistant 配置（例如通过 [Samba](/samba/README.md) 或使用 [文件编辑器](/configurator/README.md)）。
 
-Apps can be installed and configured via the Home Assistant frontend on
-systems that have installed Home Assistant.
+应用可以通过已安装 Home Assistant 的系统上的 Home Assistant 前端进行安装和配置。
 
-[![Home Assistant - A project from the Open Home Foundation](https://www.openhomefoundation.org/badges/home-assistant.png)](https://www.openhomefoundation.org/)
+[![Home Assistant - Open Home Foundation 项目](https://www.openhomefoundation.org/badges/home-assistant.png)](https://www.openhomefoundation.org/)
 
-## Apps provided by this repository
+## 本仓库提供的应用
 
 - **[CEC Scanner](/cec_scan/README.md)**
 
-    Scan & discover HDMI CEC devices and their addresses.
+    扫描并发现 HDMI CEC 设备及其地址。
 
 - **[deCONZ](/deconz/README.md)**
 
-    Control a Zigbee network using ConBee or RaspBee hardware by dresden elektronik.
+    使用 dresden elektronik 的 ConBee 或 RaspBee 硬件控制 Zigbee 网络。
 
 - **[Dnsmasq](/dnsmasq/README.md)**
 
-    A simple DNS server.
+    一个简单的 DNS 服务器。
 
 - **[Duck DNS](/duckdns/README.md)**
 
-    Automatically update your Duck DNS IP address with integrated HTTPS support via Let's Encrypt.
+    通过 Let's Encrypt 自动更新您的 Duck DNS IP 地址并提供集成的 HTTPS 支持。
 
-- **[File editor](/configurator/README.md)**
+- **[文件编辑器](/configurator/README.md)**
 
-    Simple browser-based file editor for Home Assistant.
+    用于 Home Assistant 的简单基于浏览器的文件编辑器。
 
 - **[Git pull](/git_pull/README.md)**
 
-    Load and update configuration files for Home Assistant from a Git repository.
+    从 Git 仓库加载和更新 Home Assistant 的配置文件。
 
 - **[Let's Encrypt](/letsencrypt/README.md)**
 
-    Manage and create certificates from Let's Encrypt.
+    管理和创建 Let's Encrypt 证书。
 
 - **[MariaDB](/mariadb/README.md)**
 
-    MariaDB database for Home Assistant.
+    Home Assistant 的 MariaDB 数据库。
 
 - **[Mosquitto broker](/mosquitto/README.md)**
 
-    An Open Source MQTT broker.
+    一个开源 MQTT broker。
 
-- **[NGINX Home Assistant SSL proxy](/nginx_proxy/README.md)**
+- **[NGINX Home Assistant SSL 代理](/nginx_proxy/README.md)**
 
-    Sets up an SSL proxy with NGINX and redirects traffic from port 80 to 443.
+    使用 NGINX 设置 SSL 代理，并将流量从端口 80 重定向到 443。
 
 - **[RPC Shutdown](/rpc_shutdown/README.md)**
 
-    Shutdown Windows machines remotely.
+    远程关闭 Windows 机器。
 
-- **[Samba share](/samba/README.md)**
+- **[Samba 共享](/samba/README.md)**
 
-    Share your configuration over the network using Windows file sharing.
+    使用 Windows 文件共享通过网络共享您的配置。
 
-- **[SSH server](/ssh/README.md)**
+- **[SSH 服务器](/ssh/README.md)**
 
-    Allow logging in remotely to Home Assistant using SSH or just the web terminal with Ingress.
+    允许使用 SSH 或通过 Ingress 的 Web 终端远程登录 Home Assistant。
 
 - **[Z-Wave JS](/zwave_js/README.md)**
 
-    Allow Home Assistant to talk to a Z-Wave Network via a USB Controller.
+    允许 Home Assistant 通过 USB 控制器与 Z-Wave 网络通信。
 
-## Support
+## 支持
 
-Got questions?
+有问题吗？
 
-You have several options to get them answered:
+您有以下几个选项可以获得解答：
 
-- The [Home Assistant Discord Chat Server][discord].
-- The Home Assistant [Community Forum][forum].
-- Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit].
+- [Home Assistant Discord 聊天服务器][discord]。
+- Home Assistant [社区论坛][forum]。
+- 加入 [Reddit 子版块][reddit]，网址为 [/r/homeassistant][reddit]。
 
-In case you've found a bug, please [open an issue on our GitHub][issue].
+如果您发现了 bug，请 [在我们的 GitHub 上提交 issue][issue]。
 
-## Developing your own apps
+## 开发您自己的应用
 
-In case you are interested in developing your own app, this
-repository can be a great source of inspiration. For more information
-about developing an app, please see our
-[documentation for developers][dev-docs].
+如果您对开发自己的应用感兴趣，这个仓库可以是一个很好的灵感来源。有关开发应用的更多信息，请参阅我们的
+[开发者文档][dev-docs]。
 
 [discord]: https://www.home-assistant.io/join-chat
 [forum]: https://community.home-assistant.io

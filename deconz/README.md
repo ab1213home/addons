@@ -1,8 +1,8 @@
-# Home Assistant App: deCONZ
+# Home Assistant 应用：deCONZ
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
+使用 dresden elektronik 的 ConBee 或 RaspBee 硬件控制 Zigbee 网络。
 
-Control a Zigbee network using ConBee or RaspBee hardware by dresden elektronik.
+![支持 aarch64 架构][aarch64-shield] ![支持 amd64 架构][amd64-shield]
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

@@ -1,12 +1,10 @@
-# Home Assistant App: CEC Scanner
+# Home Assistant 应用：CEC Scanner
 
-Scan & discover HDMI CEC devices and their addresses.
+扫描并发现 HDMI CEC 设备及其地址。
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
+![支持 aarch64 架构][aarch64-shield] ![支持 amd64 架构][amd64-shield]
 
-This app (formerly known as add-on) allows for scanning for CEC devices. It is useful for finding
-the CEC address of your devices.
+此应用（formerly known as add-on）允许扫描 CEC 设备。它对于查找您设备的 CEC 地址非常有用。
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-

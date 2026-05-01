@@ -1,12 +1,12 @@
-# Home Assistant App: MariaDB
+# Home Assistant 应用：MariaDB
 
-MariaDB database for Home Assistant.
+Home Assistant 的 MariaDB 数据库。
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
+![支持 aarch64 架构][aarch64-shield] ![支持 amd64 架构][amd64-shield]
 
-## About
+## 关于
 
-You can use this app (formerly known as add-on) to install MariaDB, which is an open-source (GPLv2 licensed) database.  MariaDB can be used as the database backend for Home Assistant. For more information, please see [MariaDB][mariadb]
+您可以使用此应用（formerly known as add-on）安装 MariaDB，这是一个开源（GPLv2 许可）数据库。MariaDB 可以用作 Home Assistant 的数据库后端。更多信息请参阅 [MariaDB][mariadb]。
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

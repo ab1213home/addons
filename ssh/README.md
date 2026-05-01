@@ -1,13 +1,12 @@
-# Home Assistant App: SSH server
+# Home Assistant 应用：SSH 服务器
 
-Allow logging in remotely to Home Assistant using SSH or just the web terminal with Ingress.
+允许使用 SSH 或通过 Ingress 的 Web 终端远程登录 Home Assistant。
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
+![支持 aarch64 架构][aarch64-shield] ![支持 amd64 架构][amd64-shield]
 
-## About
+## 关于
 
-Setting up an SSH server allows access to your Home Assistant folders with any SSH
-client. It also includes a command-line tool to access the Home Assistant API.
+设置 SSH 服务器允许您使用任何 SSH 客户端访问您的 Home Assistant 文件夹。它还包括一个命令行工具来访问 Home Assistant API。
 
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg

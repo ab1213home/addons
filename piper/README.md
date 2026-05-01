@@ -1,10 +1,10 @@
-# Home Assistant App: Piper
+# Home Assistant 应用：Piper
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
+![支持 aarch64 架构][aarch64-shield] ![支持 amd64 架构][amd64-shield]
 
-Home Assistant app (formerly known as add-on) that uses [piper](https://github.com/OHF-Voice/piper1-gpl) for text-to-speech.
+Home Assistant 应用（formerly known as add-on），使用 [piper](https://github.com/OHF-Voice/piper1-gpl) 进行文本转语音。
 
-Part of the [Year of Voice](https://www.home-assistant.io/blog/2022/12/20/year-of-voice/).
+这是 [Voice 年](https://www.home-assistant.io/blog/2022/12/20/year-of-voice/) 的一部分。
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

@@ -1,14 +1,12 @@
-# Home Assistant App: Dnsmasq
+# Home Assistant 应用：Dnsmasq
 
-A simple DNS server.
+一个简单的 DNS 服务器。
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
+![支持 aarch64 架构][aarch64-shield] ![支持 amd64 架构][amd64-shield]
 
-## About
+## 关于
 
-Setup and manage a Dnsmasq DNS server. This allows you to manipulate DNS
-requests. For example, you can have your Home Assistant domain resolve with
-an internal address inside your network.
+设置和管理 Dnsmasq DNS 服务器。这允许您操作 DNS 请求。例如，您可以让您的 Home Assistant 域名使用网络内部的地址进行解析。
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

@@ -1,13 +1,12 @@
-# Home Assistant App: RPC Shutdown
+# Home Assistant 应用：RPC Shutdown
 
-Shutdown Windows machines remotely.
+远程关闭 Windows 机器。
 
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield]
+![支持 aarch64 架构][aarch64-shield] ![支持 amd64 架构][amd64-shield]
 
-## About
+## 关于
 
-Allows you to shut down Windows Computers with a service call from Home Assistant.
+允许您通过来自 Home Assistant 的服务调用来关闭 Windows 计算机。
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[discord]: https://www.home-assistant.io/join-chat
